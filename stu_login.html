@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tittle>
+</tittle>
+<style type="text/css">
+.one{
+background-color:silver;
+text-align:center;
+padding:30px;
+height:100%;
+}
+.two{float:center;}
+</style>
+<script type="text/javascript">
+function validate()
+{
+strValidate=strForm.str.value.search(/1BM16CS[0-9]{3}/i);
+strValid=strForm.strr.value.search(/[0-9]{10});
+if(strValidate== -1 || strValid==-1);
+{
+alert("Enter the valid username and password");
+}
+
+}
+</script>
+</head>
+<body>
+<div class="one">
+<image class="two" src="C:\Users\hp\Downloads\bms.png"  width="200" height="200">
+<h1>Student Login</h1>
+<form action="file:///C:/Users/hp/Downloads/stu_home.html" name="strForm" onsubmit="validate();" >
+<label><b>Username:</b>
+<input type="text"
+name="str"
+/>
+</label>
+<br/><br/><br/><br/>
+<label><b>Password:</b>
+<input type="password"
+name="strr"
+/>
+</label>
+<br/><br/><br/><br/>
+<label><input type="submit"
+name="name"
+value="Login"/>
+</form>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+</label>
+</div>
+</body>
+</html>
